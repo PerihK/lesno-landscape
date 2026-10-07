@@ -40,3 +40,14 @@ next-env.d.ts
 /.sites-runtime/
 /.sites-checkout/
 *.tar.gz
+
+# Local credentials, dependencies and QA artifacts
+.vercel/
+node_modules/
+.sites-runtime/
+.sites-checkout/
+qa/
+qa-astra/
+*.zip
+*.log
+tsconfig.tsbuildinfo
